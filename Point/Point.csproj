@@ -1,0 +1,42 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <IsPackable>true</IsPackable>
+    <Authors>JOEVER MONCEDA</Authors>
+    <Description>
+      The Point library is a utility for generating unique identifiers based on various system attributes. 
+      It combines a machine's unique identifier, timestamp, process ID, and network information (including public IP address and MAC address) to create a formatted unique ID string. The library includes methods for retrieving system-specific identifiers, parsing IP addresses, and formatting the generated identifiers. 
+      It is designed to ensure uniqueness and traceability for applications requiring distinct identification for entities or objects.
+    </Description>
+    <Copyright>2024</Copyright>
+    <PackageIcon>PointIcon.png</PackageIcon>
+    <RepositoryUrl>https://github.com/Ethan0007/Point</RepositoryUrl>
+    <RepositoryType>GIT</RepositoryType>
+    <PackageTags>Unique Id ; GUID ; C#; Traceable Id</PackageTags>
+    <PackageProjectUrl>https://github.com/Ethan0007/InPoint</PackageProjectUrl>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+    <Title>Point</Title>
+    <SignAssembly>False</SignAssembly>
+    <IsPackable>true</IsPackable>
+    <IncludeSymbols>True</IncludeSymbols>
+    <PackageRequireLicenseAcceptance>True</PackageRequireLicenseAcceptance>
+    <PackageLicenseFile>License.txt</PackageLicenseFile>
+    <Version>1.0.1</Version>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Moq" Version="4.20.72" />
+    <PackageReference Include="xunit" Version="2.9.2" />
+    <PackageReference Include="xunit.runner.visualstudio" Version="2.8.2">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="Microsoft.NET.Test.Sdk" Version="17.4.0" />
+    <PackageReference Include="xunit" Version="2.4.1" />
+    <PackageReference Include="xunit.runner.visualstudio" Version="2.4.3" />
+  </ItemGroup>
+
+</Project>
