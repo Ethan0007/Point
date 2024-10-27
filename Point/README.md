@@ -1,6 +1,13 @@
 # Point: _NuGet Library_
 #### _A Unique Identifier Solution Beyond GUIDs_
 
+[![NuGet Downloads](https://img.shields.io/nuget/dt/Point.svg)](https://github.com/Ethan0007/Point)
+[![NuGet Version](https://img.shields.io/nuget/v/Point.svg)](https://github.com/Ethan0007/Point)    
+```dotnet add package Point --version 1.0.0```    
+
+[![Point](https://github.com/Ethan0007/Point/blob/development/Point/PointIcon.png)](https://github.com/Ethan0007/Point/blob/development/Point/PointIcon.png)
+
+
 Introducing the Point Library: A Unique Identifier Solution Beyond GUIDs
 In today's digital landscape, generating unique identifiers for objects and entities is a common requirement across various applications. While GUIDs (Globally Unique Identifiers) have been a popular choice due to their vast uniqueness space, they come with their own set of limitations. Enter the Point Library—a robust solution that generates unique identifiers by combining various system attributes. In this article, we’ll explore the features of the Point library and how it compares to traditional GUIDs.
 
@@ -9,12 +16,11 @@ Unique identifiers are essential in numerous scenarios, including database entri
 
 #### What is the Point Library?
 The Point Library is designed to create unique identifiers by leveraging several system attributes, such as:   
-1. Machine Unique Identifier: Obtained based on the operating system, whether Windows, Linux, or macOS.
+1. Machine Unique Identifier & Attribute: Obtained based on the operating system, whether Windows, Linux, or macOS.
 2. Timestamp: The current time in milliseconds since Unix epoch.
 3. Process ID: Identifies the specific process generating the identifier.
 4. Counter: A simple counter to ensure uniqueness even when generated in quick succession.
-5. Public IP Address: The device's public-facing IP for additional uniqueness.
-6. MAC Address: A network identifier that adds another layer of uniqueness.
+5. Public IP & MAC Address: The device's public-facing IP for additional uniqueness and network identifier that adds another layer of uniqueness..
 
 #### Key Features
 Contextual Uniqueness: Unlike GUIDs, which are random, Point identifiers incorporate meaningful information about the environment they were created in.    
@@ -45,6 +51,8 @@ The Point library is ideal for:
 - Database Entries: Replacing GUIDs in database schemas with more informative identifiers.
 - APIs: Generating unique transaction IDs that carry meaning for client-side debugging and tracing.
 
+#### Unit Testing
+[![Point](https://github.com/Ethan0007/Point/blob/development/Point/UnitTest.png)](https://github.com/Ethan0007/Point/blob/development/Point/UnitTest.png)
 
 #### License 
   [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)  

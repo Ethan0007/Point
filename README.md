@@ -5,7 +5,7 @@
 [![NuGet Version](https://img.shields.io/nuget/v/Point.svg)](https://github.com/Ethan0007/Point)    
 ```dotnet add package Point --version 1.0.0```    
 
-[![PubSub](https://github.com/Ethan0007/Point/blob/development/Point/PointIcon.png)](https://github.com/Ethan0007/Point/blob/development/Point/PointIcon.png)
+[![Point](https://github.com/Ethan0007/Point/blob/development/Point/PointIcon.png)](https://github.com/Ethan0007/Point/blob/development/Point/PointIcon.png)
 
 
 Introducing the Point Library: A Unique Identifier Solution Beyond GUIDs
@@ -51,6 +51,8 @@ The Point library is ideal for:
 - Database Entries: Replacing GUIDs in database schemas with more informative identifiers.
 - APIs: Generating unique transaction IDs that carry meaning for client-side debugging and tracing.
 
+#### Unit Testing
+[![Point](https://github.com/Ethan0007/Point/blob/development/Point/UnitTest.png)](https://github.com/Ethan0007/Point/blob/development/Point/UnitTest.png)
 
 #### License 
   [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)  
