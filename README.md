@@ -1,6 +1,13 @@
 # Point: _NuGet Library_
 #### _A Unique Identifier Solution Beyond GUIDs_
 
+[![NuGet Downloads](https://img.shields.io/nuget/dt/Point.svg)](https://github.com/Ethan0007/Point)
+[![NuGet Version](https://img.shields.io/nuget/v/Point.svg)](https://github.com/Ethan0007/Point)    
+```dotnet add package Point --version 1.0.0```    
+
+[![PubSub](https://github.com/Ethan0007/Point/blob/development/Point/PointIcon.png)](https://github.com/Ethan0007/Point/blob/development/Point/PointIcon.png)
+
+
 Introducing the Point Library: A Unique Identifier Solution Beyond GUIDs
 In today's digital landscape, generating unique identifiers for objects and entities is a common requirement across various applications. While GUIDs (Globally Unique Identifiers) have been a popular choice due to their vast uniqueness space, they come with their own set of limitations. Enter the Point Library—a robust solution that generates unique identifiers by combining various system attributes. In this article, we’ll explore the features of the Point library and how it compares to traditional GUIDs.
 
