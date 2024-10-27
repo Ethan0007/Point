@@ -13,10 +13,10 @@
     </Description>
     <Copyright>2024</Copyright>
     <PackageIcon>PointIcon.png</PackageIcon>
-    <RepositoryUrl>https://github.com/Ethan0007/Point</RepositoryUrl>
+    <RepositoryUrl>https://github.com/Ethan0007/PointId</RepositoryUrl>
     <RepositoryType>GIT</RepositoryType>
-    <PackageTags>Unique Id ; GUID ; C#; Traceable Id</PackageTags>
-    <PackageProjectUrl>https://github.com/Ethan0007/InPoint</PackageProjectUrl>
+    <PackageTags>Traceable Id; PointId Nuget Library; PointId Contextual Guid; Traceable Guid;</PackageTags>
+    <PackageProjectUrl>https://github.com/Ethan0007/PointId</PackageProjectUrl>
     <PackageReadmeFile>README.md</PackageReadmeFile>
     <Title>PointId</Title>
     <SignAssembly>False</SignAssembly>
