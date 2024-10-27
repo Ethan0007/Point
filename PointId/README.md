@@ -52,7 +52,7 @@ The PointId library is ideal for:
 - APIs: Generating unique transaction IDs that carry meaning for client-side debugging and tracing.
 
 #### Unit Testing
-[![Point](https://github.com/Ethan0007/PointId/blob/development/Point/UnitTest.png)](https://github.com/Ethan0007/PointId/blob/development/Point/UnitTest.png)
+[![Point](https://github.com/Ethan0007/PointId/blob/development/PointId/UnitTest.png)](https://github.com/Ethan0007/PointId/blob/development/Point/UnitTest.png)
 
 #### License 
   [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)  
