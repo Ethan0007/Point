@@ -1,14 +1,14 @@
-# Point: _NuGet Library_
+# PointId: _NuGet Library_
 #### _A Unique Identifier Solution Beyond GUIDs_
 
 [![NuGet Downloads](https://img.shields.io/nuget/dt/Point.svg)](https://github.com/Ethan0007/Point)
 [![NuGet Version](https://img.shields.io/nuget/v/Point.svg)](https://github.com/Ethan0007/Point)    
-```dotnet add package Point --version 1.0.0```    
+```dotnet add package PointId --version 1.0.0```    
 
-[![Point](https://github.com/Ethan0007/Point/blob/development/Point/PointIcon.png)](https://github.com/Ethan0007/Point/blob/development/Point/PointIcon.png)
+[![Point](https://github.com/Ethan0007/PointId/blob/development/PointId/PointIcon.png)](https://github.com/Ethan0007/PointId/blob/development/PointId/PointIcon.png)
 
 
-Introducing the Point Library: A Unique Identifier Solution Beyond GUIDs
+Introducing the PointId Library: A Unique Identifier Solution Beyond GUIDs
 In today's digital landscape, generating unique identifiers for objects and entities is a common requirement across various applications. While GUIDs (Globally Unique Identifiers) have been a popular choice due to their vast uniqueness space, they come with their own set of limitations. Enter the Point Library—a robust solution that generates unique identifiers by combining various system attributes. In this article, we’ll explore the features of the Point library and how it compares to traditional GUIDs.
 
 #### The Need for Unique Identifiers
@@ -31,13 +31,13 @@ Contextual Uniqueness: Unlike GUIDs, which are random, Point identifiers incorpo
 ```
     public void GeneratesUniqueId()
     {
-      string result = Point.NewPointId();
+      string result = PointId.NewPointId();
     }
 ```
 
 
 #### Comparison with GUIDs
-| Feature                | GUIDs                               | Point Identifiers                      |
+| Feature                | GUIDs                               | PointId Identifiers                      |
 |-----------------------|-------------------------------------|----------------------------------------|
 | Length                | 36 characters (128 bits)           | 48 characters (variable)              |
 | Format                | Randomly generated                  | Contextual and systematic              |
@@ -46,13 +46,13 @@ Contextual Uniqueness: Unlike GUIDs, which are random, Point identifiers incorpo
 | Collision Risk        | Extremely low, but possible         | Minimal due to contextual uniqueness    |
 
 #### Use Cases
-The Point library is ideal for:
+The PointId library is ideal for:
 - Logging: Unique identifiers for log entries that need to include contextual information about the machine and environment.
 - Database Entries: Replacing GUIDs in database schemas with more informative identifiers.
 - APIs: Generating unique transaction IDs that carry meaning for client-side debugging and tracing.
 
 #### Unit Testing
-[![Point](https://github.com/Ethan0007/Point/blob/development/Point/UnitTest.png)](https://github.com/Ethan0007/Point/blob/development/Point/UnitTest.png)
+[![Point](https://github.com/Ethan0007/PointId/blob/development/Point/UnitTest.png)](https://github.com/Ethan0007/PointId/blob/development/Point/UnitTest.png)
 
 #### License 
   [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)  

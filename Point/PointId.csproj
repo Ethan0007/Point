@@ -7,8 +7,8 @@
     <IsPackable>true</IsPackable>
     <Authors>JOEVER MONCEDA</Authors>
     <Description>
-      The Point library is a utility for generating unique identifiers based on various system attributes. 
-      It combines a machine's unique identifier, timestamp, process ID, and network information (including public IP address and MAC address) to create a formatted unique ID string. The library includes methods for retrieving system-specific identifiers, parsing IP addresses, and formatting the generated identifiers. 
+      The PointId library is a utility for generating unique identifiers based on various system attributes.
+      It combines a machine's unique identifier, timestamp, process ID, and network information (including public IP address and MAC address) to create a formatted unique ID string. The library includes methods for retrieving system-specific identifiers, parsing IP addresses, and formatting the generated identifiers.
       It is designed to ensure uniqueness and traceability for applications requiring distinct identification for entities or objects.
     </Description>
     <Copyright>2024</Copyright>
@@ -18,13 +18,13 @@
     <PackageTags>Unique Id ; GUID ; C#; Traceable Id</PackageTags>
     <PackageProjectUrl>https://github.com/Ethan0007/InPoint</PackageProjectUrl>
     <PackageReadmeFile>README.md</PackageReadmeFile>
-    <Title>Point</Title>
+    <Title>PointId</Title>
     <SignAssembly>False</SignAssembly>
     <IsPackable>true</IsPackable>
     <IncludeSymbols>True</IncludeSymbols>
     <PackageRequireLicenseAcceptance>True</PackageRequireLicenseAcceptance>
     <PackageLicenseFile>License.txt</PackageLicenseFile>
-    <Version>1.0.1</Version>
+    <Version>1.0.0</Version>
   </PropertyGroup>
 
   <ItemGroup>

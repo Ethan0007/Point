@@ -6,9 +6,9 @@ using System.Text;
 /*
  * OWNER: JOEVER MONCEDA
  */ 
-namespace Point
+namespace PointId
 {
-    public class Point
+    public class PointId
     {
         private static int counter = 0;
 
@@ -139,7 +139,7 @@ namespace Point
             return "NA";
         }
 
-        public static async Task<string> GetPublicIPAddressAsync()
+        private static async Task<string> GetPublicIPAddressAsync()
         {
             try
             {
