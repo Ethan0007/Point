@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.11.35219.272
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PointId", "Point\PointId.csproj", "{D287A8BC-7335-46E4-9C98-D2DF7DF1C151}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PointId", "PointId\PointId.csproj", "{D287A8BC-7335-46E4-9C98-D2DF7DF1C151}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
