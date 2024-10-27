@@ -47,9 +47,8 @@ namespace PointGen
             return $"{BitConverter.ToString(bytes, 0, 4).Replace("-", "")}-" +
                    $"{BitConverter.ToString(bytes, 4, 4).Replace("-", "")}-" +
                    $"{BitConverter.ToString(bytes, 8, 4).Replace("-", "")}-" +
-                   $"{BitConverter.ToString(bytes, 12, 4).Replace("-", "")}-" +
+                   $"{BitConverter.ToString(bytes, 9, 4).Replace("-", "")}-" +
                    $"{BitConverter.ToString(bytes, 16, 6).Replace("-", "").ToUpper()}";
-
         }
 
         private static byte[] GetMachineUniqueIdentifier()

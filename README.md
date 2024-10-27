@@ -3,7 +3,7 @@
 
 [![NuGet Downloads](https://img.shields.io/nuget/dt/PointId.svg)](https://github.com/Ethan0007/PointId)
 [![NuGet Version](https://img.shields.io/nuget/v/PointId.svg)](https://github.com/Ethan0007/PointId)    
-```dotnet add package PointId --version 1.0.1```    
+```dotnet add package PointId --version 1.0.2```    
 
 [![PointId](https://github.com/Ethan0007/PointId/blob/development/PointId/PointIcon.png)](https://github.com/Ethan0007/PointId/blob/development/PointId/PointIcon.png)
 
