@@ -6,7 +6,7 @@ using System.Text;
 /*
  * OWNER: JOEVER MONCEDA
  */ 
-namespace PointId
+namespace PointGen
 {
     public class PointId
     {

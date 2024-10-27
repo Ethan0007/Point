@@ -3,7 +3,7 @@
 
 [![NuGet Downloads](https://img.shields.io/nuget/dt/PointId.svg)](https://github.com/Ethan0007/PointId)
 [![NuGet Version](https://img.shields.io/nuget/v/PointId.svg)](https://github.com/Ethan0007/PointId)    
-```dotnet add package PointId --version 1.0.0```    
+```dotnet add package PointId --version 1.0.1```    
 
 [![PointId](https://github.com/Ethan0007/PointId/blob/development/PointId/PointIcon.png)](https://github.com/Ethan0007/PointId/blob/development/PointId/PointIcon.png)
 
@@ -29,9 +29,14 @@ Contextual Uniqueness: Unlike GUIDs, which are random, PointId identifiers incor
 - Static Methods: All methods are static, ensuring that no instance creation is necessary for identifier generation.
 - Robust Error Handling: The library gracefully handles errors when retrieving machine identifiers or network information.
 ```
-    public void GeneratesUniqueId()
+    using PointId = PointGen.PointId;
+
+    public class PointGuid
     {
-      string result = PointId.NewPointId();
+        static void Main(string[] args)
+        {
+            var pointId = PointId.NewPointId();
+        }
     }
 ```
 
